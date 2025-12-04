@@ -1,4 +1,4 @@
-const MAIN_API_URL = 'https://api.themoviedb.org/3/';
+const MAIN_API_URL = process.env.REACT_APP_API_URL;
 
 const urls = {
     search: {
